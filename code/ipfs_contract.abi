@@ -1,0 +1,74 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "file",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "filename",
+                    "type": "string"
+                },
+                {
+                    "name": "ipfs_hash",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "retrieve",
+            "base": "",
+            "fields": [
+                {
+                    "name": "filename",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "store",
+            "base": "",
+            "fields": [
+                {
+                    "name": "filename",
+                    "type": "string"
+                },
+                {
+                    "name": "ipfs_hash",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "retrieve",
+            "type": "retrieve",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "store",
+            "type": "store",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "files",
+            "type": "file",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": []
+}

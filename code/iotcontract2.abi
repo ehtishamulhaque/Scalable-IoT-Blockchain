@@ -1,0 +1,33 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "runiot",
+            "base": "",
+            "fields": [
+                {
+                    "name": "num_iterations",
+                    "type": "uint64"
+                },
+                {
+                    "name": "payload",
+                    "type": "bytes"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "runiot",
+            "type": "runiot",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": []
+}
